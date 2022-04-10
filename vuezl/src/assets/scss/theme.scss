@@ -1,0 +1,52 @@
+$dark: #1a1a1a;
+$yellow: #ffd700;
+$white: #fff;
+$green: #7efa7e;
+$red: #f44336;
+$orange: #e7a75e;
+$blue: rgb(69, 168, 248);
+
+* {
+  user-select: none;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.5s ease;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  button {
+    cursor: pointer;
+    border: 0;
+    color: $white;
+    background: $dark;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 5rem;
+  }
+  button:hover {
+    background: $blue;
+    color: $dark;
+  }
+  a {
+    text-decoration: none;
+    color: $blue;
+    display: grid;
+    place-items: center;
+  }
+  a:hover {
+    transition: none;
+    border-bottom: 2px solid $blue;
+  }
+  .title {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+  .row-input {
+    margin: 4px;
+  }
+}
